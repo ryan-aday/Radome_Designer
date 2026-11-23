@@ -1,0 +1,101 @@
+{
+  "schema_version": "1.0",
+  "notes": "Citations distinguish background literature from implemented reduced-order calculations. Bundled PDFs were uploaded by the user; nonbundled third-party PDFs are linked to their original publishers. No material values are grade-qualified.",
+  "references": [
+    {
+      "id": "R01",
+      "category": "User-supplied online reference",
+      "title": "Nose cone design",
+      "authors": "Wikipedia contributors",
+      "year": "Living reference",
+      "publication": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Nose_cone_design",
+      "pdf_url": null,
+      "local_pdf": null,
+      "relevance": "Profile equations for conic, ogive, elliptical, parabolic, power-series, Haack, and related shapes.",
+      "implementation": "Geometry families implemented with stated approximations; not a computational aerodynamic validation."
+    },
+    {
+      "id": "R02",
+      "category": "User-supplied online reference",
+      "title": "mmWave Radar Radome Design Guide",
+      "authors": "C. Kumar, H. U. R. Mohammed, and G. Peake",
+      "year": 2021,
+      "publication": "Texas Instruments application report SWRA705",
+      "url": "https://www.ti.com/lit/an/swra705/swra705.pdf",
+      "pdf_url": "https://www.ti.com/lit/an/swra705/swra705.pdf",
+      "local_pdf": null,
+      "relevance": "Single-wall RF dielectric behavior, thickness resonance, angle sensitivity, and test considerations.",
+      "implementation": "Background support for locally planar dielectric-wall RF model; guide is not implemented verbatim."
+    },
+    {
+      "id": "R03",
+      "category": "User-supplied online reference",
+      "title": "A Novel Instrument for Real-Time Measurement of Attenuation of Weather Radar Radome Including Its Outer Surface. Part I: The Concept",
+      "authors": "A. Mancini, J. L. Salazar, R. M. Lebrón, and B. L. Cheong",
+      "year": 2018,
+      "publication": "Journal of Atmospheric and Oceanic Technology, 35(5)",
+      "url": "https://doi.org/10.1175/JTECH-D-17-0083.1",
+      "pdf_url": "https://arrc.ou.edu/~boonleng/pdf/mancini++18-radome-part-i.pdf",
+      "local_pdf": null,
+      "relevance": "Wet/dirty radome measurement methods and external film/reflection effects.",
+      "implementation": "Literature for future environmental RF model; not implemented."
+    },
+    {
+      "id": "R04",
+      "category": "User-supplied online reference",
+      "title": "Flight Capabilities of High-Speed-Missile Radome Materials",
+      "authors": "J. B. Kouroupis",
+      "year": 1992,
+      "publication": "Johns Hopkins APL Technical Digest, 13(3)",
+      "url": "https://secwww.jhuapl.edu/techdigest/Content/techdigest/pdf/V13-N03/13-03-Kouroupis.pdf",
+      "pdf_url": "https://secwww.jhuapl.edu/techdigest/Content/techdigest/pdf/V13-N03/13-03-Kouroupis.pdf",
+      "local_pdf": null,
+      "relevance": "Historical high-temperature material tradeoffs, erosion, thermal/mechanical constraints and radar aberration.",
+      "implementation": "Qualitative design context only; no flight qualification, aeroheating, or boresight model implemented."
+    },
+    {
+      "id": "R05",
+      "category": "User-uploaded PDF",
+      "title": "Electromagnetic Performance Analysis of Inhomogeneous Radome Walls Considering Temperature and Ablation",
+      "authors": "Y. Dan and J. Yang",
+      "year": 2023,
+      "publication": "Aerospace, 10, 927",
+      "url": "https://doi.org/10.3390/aerospace10110927",
+      "pdf_url": null,
+      "local_pdf": "references/papers/Dan_Yang_2023_Aerospace_Radome_Temperature_Ablation.pdf",
+      "relevance": "Transfer/cascade matrix transmission for wall layers, thermal changes, and ablation of graded materials.",
+      "implementation": "Related mathematical foundation for local slab transmission; monolithic-only model, no ablation or graded wall.",
+      "sha256": "a94ea10ea66392628d7cc8b0f899e0cf2713cfc97eec406bb4eb2e868d93fc56",
+      "size_bytes": 7546573
+    },
+    {
+      "id": "R06",
+      "category": "User-uploaded PDF",
+      "title": "A Drop Size Distribution (DSD)-Based Model for Evaluating the Performance of Wet Radomes for Dual-Polarized Radars",
+      "authors": "J. L. Salazar-Cerreño et al.",
+      "year": 2014,
+      "publication": "Journal of Atmospheric and Oceanic Technology, 31, 2409–2430",
+      "url": "https://doi.org/10.1175/JTECH-D-13-00208.1",
+      "pdf_url": null,
+      "local_pdf": "references/papers/Salazar_Cerreno_et_al_2014_Wet_Radomes_DSD.pdf",
+      "relevance": "Rain droplet distributions, hydrophobicity, dielectric wet-layer modeling and cross-polarized losses.",
+      "implementation": "Literature for future wet-radome model; precipitation effects not implemented.",
+      "sha256": "ef9cb0ff480181aaee2ce48b1083000591947cf4b237322f8fbad2a268692eff",
+      "size_bytes": 4044482
+    },
+    {
+      "id": "R07",
+      "category": "Additional scientific reference",
+      "title": "High temperature ceramic radomes (HTCR) – A review",
+      "authors": "A. Nag, R. Ramachandra Rao, and P. K. Panda",
+      "year": 2021,
+      "publication": "Ceramics International, 47(15), 20793–20806",
+      "url": "https://doi.org/10.1016/j.ceramint.2021.04.203",
+      "pdf_url": null,
+      "local_pdf": null,
+      "relevance": "Survey of high-temperature RF-ceramic candidates and manufacturing/property tradeoffs.",
+      "implementation": "Background material screening only; numerical material data in materials.json remain illustrative."
+    }
+  ]
+}

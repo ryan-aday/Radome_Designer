@@ -1,0 +1,9 @@
+streamlit>=1.39,<2
+numpy>=1.26
+scipy>=1.11
+pandas>=2.0
+plotly>=5.18
+trimesh>=4.0
+shapely>=2.0
+# For STEP export (optional; install separately if necessary):
+# cadquery>=2.5

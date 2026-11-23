@@ -1,0 +1,23 @@
+{
+  "geometry": {
+    "length_m": 0.4,
+    "base_diameter_m": 0.2,
+    "profile": "Tangent ogive",
+    "spherical_tip_radius_m": 0.0
+  },
+  "conditions": {
+    "frequency_GHz": 10.0,
+    "bandwidth_fraction": 0.10,
+    "angle_max_deg": 45,
+    "skin_tip_C": 150.0,
+    "skin_base_C": 50.0,
+    "differential_pressure_Pa": 20000.0,
+    "axial_load_expr": "0",
+    "shear_load_expr": "0",
+    "moment_load_expr": "0",
+    "thickness_min_m": 0.0015,
+    "thickness_max_m": 0.014,
+    "safety_factor": 2.0
+  },
+  "note": "Illustrative only. Run the app, adjust conditions and re-optimize."
+}
